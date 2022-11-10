@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: back-end
-          image: sp3ar007/backend
+          image: sp3ar007/backendspringboot
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
